@@ -1,0 +1,109 @@
+/*header*/
+.head{
+    width: 100%;
+    height: 75px;
+    background: #9ad9ea;
+}
+.head .head-box{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.head .head-box .logo{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+}
+.head-box .logo>img{
+    width: 235px;
+    height: 75px;
+}
+.head .head-box .menu-box{
+    position: absolute;
+    left: 300px;
+    width: 300px;
+    height: 100%;
+}
+.menu-box .menu-switcher li>a{
+    float: left;
+    width: 100px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+.menu-box .menu-switcher li>a.show,li>a:hover{
+    border-bottom: 5px solid #3f89ec;
+    box-sizing: border-box;
+}
+.head .head-box .right-header{
+    height: 100%;
+    width: 440px;
+    float: right;
+    position: relative;
+}
+.head-box .right-header .search-input{
+    position: absolute;
+    top: 18px;
+    height: 30px;
+    width: 250px;
+    text-indent: 1em;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding-right: 35px;
+}
+.head-box .right-header .search-btn{
+    position: absolute;
+    top: 23px;
+    width: 30px;
+    height: 30px;
+    left: 254px;
+}
+.right-header .search-btn>i{
+    font-size: 23px;
+}
+.head-box .right-header .write-btn{
+    float: right;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: #3f89ec;
+    margin: 15px 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.right-header .write-btn>i{
+    font-size: 20px;
+    vertical-align: -2px;
+}
+
+
+
+/*底部内容*/
+.bottom{
+    background: #444444;
+    height: 100px;
+    width: 100%;
+}
+.bottom .bottom-contents{
+    height: 70px;
+    width: 1100px;
+    margin: 0 auto;
+    line-height: 70px;
+    color: #cccccc;
+    font-size: 14px;
+}
+.bottom-contents .author-me{
+    float: right;
+}
+.bottom .helpful-link{
+    border-top: 1px solid gray;
+    padding-top: 5px;
+    text-align: center;
+    color: #cccccc;
+}
+.bottom .helpful-link>a{
+    color: skyblue;
+    margin-right: 10px;
+}
